@@ -1,0 +1,9 @@
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\bin\Debug\POOF_00081511.exe.config
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\bin\Debug\POOF_00081511.exe
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\bin\Debug\POOF_00081511.pdb
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.csprojAssemblyReference.cache
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.Properties.Resources.resources
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.csproj.GenerateResource.cache
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.csproj.CoreCompileInputs.cache
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.exe
+C:\Users\Glenda Cartagena\Documents\repoActual\POOF_00081511\obj\Debug\POOF_00081511.pdb
