@@ -9,5 +9,10 @@ namespace POOF_00081511.Views
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /**/
+        }
     }
 }
