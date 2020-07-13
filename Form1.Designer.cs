@@ -47,8 +47,8 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(496, 473);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 483F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(506, 483);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // adminView1
@@ -57,14 +57,14 @@
             this.adminView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.adminView1.Location = new System.Drawing.Point(3, 3);
             this.adminView1.Name = "adminView1";
-            this.adminView1.Size = new System.Drawing.Size(490, 467);
+            this.adminView1.Size = new System.Drawing.Size(500, 477);
             this.adminView1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 473);
+            this.ClientSize = new System.Drawing.Size(506, 483);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));

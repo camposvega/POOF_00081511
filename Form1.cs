@@ -16,5 +16,11 @@ namespace POOF_00081511
         {
             InitializeComponent();
         }
+
+        public TableLayoutPanel TableLayoutPanel1
+        {
+            get => tableLayoutPanel1;
+            set => tableLayoutPanel1 = value;
+        }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System.Data;
+using System.Windows.Forms;
+using POOF_00081511.Interfaces;
 
 namespace POOF_00081511
 {
@@ -7,6 +9,13 @@ namespace POOF_00081511
         private static Manage instance = null;
         private Form1 mainForm;
         private UserControl current = null;
+        private IUserApp user;
+
+        public IUserApp User
+        {
+            get => user;
+            set => user = value;
+        }
 
         public Form1 MainForm
         {
@@ -34,6 +43,11 @@ namespace POOF_00081511
                 }
                 return instance;
             }
+        }
+
+        public DataTable llenarTabla()
+        {
+            return ConnectionBDD.executeQuery(user.verListado());
         }
         
         
