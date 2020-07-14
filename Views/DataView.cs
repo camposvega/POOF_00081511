@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace POOF_00081511.Views
 {
@@ -14,12 +15,20 @@ namespace POOF_00081511.Views
         {
             if (Manage.Instance.User.Id_rol == 2 || Manage.Instance.User.Id_rol == 3)
             {
-                
+
             }
             else
             {
                 return;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Manage.Instance.MainForm.TableLayoutPanel1.Controls.Remove(this);
+            Manage.Instance.Current = new DashBoard();
+            Manage.Instance.MainForm.TableLayoutPanel1.Controls.Add(Manage.Instance.Current,0,0);
+            Manage.Instance.MainForm.TableLayoutPanel1.SetColumnSpan(Manage.Instance.Current,1); 
         }
     }
 }

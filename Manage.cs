@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Windows.Forms;
 using POOF_00081511.Interfaces;
 
@@ -49,7 +50,20 @@ namespace POOF_00081511
         {
             return ConnectionBDD.executeQuery(user.verListado());
         }
-        
-        
+
+        public bool loginUser(String no, String apellido)
+        {
+            try
+            {
+                var dt = ConnectionBDD.executeQuery($"select * from usuario WHERE NOMBRE LIKE '{no}%' AND APELLIDO = '{apellido}'");
+                MessageBox.Show(dt.Rows[0][0].ToString());
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Nelson Mandela");
+                return false;
+            }
+        }
     }
 }
