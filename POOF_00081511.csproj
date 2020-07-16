@@ -178,6 +178,12 @@
         <Compile Include="Manage.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Views\AddEntrada.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Views\AddEntrada.Designer.cs">
+          <DependentUpon>AddEntrada.cs</DependentUpon>
+        </Compile>
         <Compile Include="Views\AdminView.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -208,6 +214,9 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Views\AddEntrada.resx">
+          <DependentUpon>AddEntrada.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="Views\AdminView.resx">
           <DependentUpon>AdminView.cs</DependentUpon>
         </EmbeddedResource>

@@ -9,6 +9,7 @@ namespace POOF_00081511.Views
         {
             InitializeComponent();
             this.dataGridView1.DataSource = Manage.Instance.llenarTabla();
+            button1.Text = Manage.Instance.LabelNombre;
         }
 
         private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -25,10 +26,13 @@ namespace POOF_00081511.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Manage.Instance.MainForm.TableLayoutPanel1.Controls.Remove(this);
-            Manage.Instance.Current = new DashBoard();
-            Manage.Instance.MainForm.TableLayoutPanel1.Controls.Add(Manage.Instance.Current,0,0);
-            Manage.Instance.MainForm.TableLayoutPanel1.SetColumnSpan(Manage.Instance.Current,1); 
+            Manage.delegateView();
+        }
+
+        public Button Button1
+        {
+            get => button1;
+            set => button1 = value;
         }
     }
 }

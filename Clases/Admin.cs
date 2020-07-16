@@ -10,6 +10,14 @@ namespace POOF_00081511.Clases
         public int id_user { get; set; }
         public int Id_rol { get; set; }
 
+        public Admin(string name, int idUser)
+        {
+            Name = name;
+            id_user = idUser;
+            this.UserName = name;
+            this.Id_rol = 2;
+        }
+
         public string verListado()
         {
             return $"select a.nombre, a.apellido, case when b.entrada = '1' then 'Entrada' else 'Salida' end as entrada, " +
